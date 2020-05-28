@@ -1,0 +1,22 @@
+{
+  "name": "frontend",
+  "version": "1.0.0",
+  "description": "The frontend for ChatFalcon.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChatFalcon/frontend.git"
+  },
+  "scripts": {
+    "build": "parcel build ./src/ui.js --no-content-hash && parcel build ./src/ui.scss --no-content-hash && cp ./src/base.html ./dist/base.html"
+  },
+  "author": "Jake Gealer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ChatFalcon/frontend/issues"
+  },
+  "homepage": "https://github.com/ChatFalcon/frontend#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4",
+    "sass": "^1.26.5"
+  }
+}
